@@ -1,0 +1,43 @@
+:root{
+    --bg-red--1: red;
+    --bg-yellow--2: yellow;
+    --bg-green--3: green;
+    --bg-black--4: black;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: var(--bg-black--4);
+}
+
+h1{
+    color: #fff;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    font-size: 30px;
+
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#box-green{
+    background-color: var(--bg-green--3);
+}
+
+#box-yellow{
+    background-color: var(--bg-yellow--2);
+}
+
+#box-red{
+    background-color: var(--bg-red--1);
+}

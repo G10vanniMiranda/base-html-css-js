@@ -26,11 +26,16 @@ header{
 
     background-color: #1d1d1d;
 }
-
 .container{
     width: 100vw;
     height: 400px;
     background-color: blueviolet;
+}
+
+input{
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
 }
 
 button{
